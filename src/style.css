@@ -35,6 +35,17 @@ p {
     margin: 0;
 }
 
+a {
+    color: var(--color-content-background);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a0c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .Info--container {
     margin: 0 auto;
     max-width: 32rem;
@@ -60,4 +71,22 @@ p {
     font-size: 15.5px;
     margin-top: 7px;
     font-weight: 500;
+}
+
+.Info--mail-btn {
+    background-color: var(--color-white);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    max-width: 80%;
+    padding: 0.5rem 9rem;
+    border-radius: 0.4rem;
+}
+
+.Info--mail-btn > span {
+    margin-left: 1rem;
 }
