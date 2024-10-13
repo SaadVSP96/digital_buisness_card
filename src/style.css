@@ -1,0 +1,63 @@
+:root {
+    --color-background: #23252c;
+    --color-content-background: #1a1b21;
+    --color-white: #ffffff;
+    --color-light-brown: #f3bf99;
+    --border-radius: 30px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.Info--container {
+    margin: 0 auto;
+    max-width: 32rem;
+    background-color: var(--color-content-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Info--container > img {
+    border-radius: 1rem;
+    margin-top: 4rem;
+}
+
+.Info--name {
+    color: var(--color-white);
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+.Info--role {
+    color: var(--color-light-brown);
+    font-size: 15.5px;
+    margin-top: 7px;
+    font-weight: 500;
+}
