@@ -3,7 +3,7 @@
     --color-content-background: #1a1b21;
     --color-white: #ffffff;
     --color-light-brown: #f3bf99;
-    --border-radius: 30px;
+    --color-grey: #918e9b;
 }
 
 *,
@@ -46,6 +46,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* Info */
 .Info--container {
     margin: 0 auto;
     max-width: 32rem;
@@ -89,4 +90,75 @@ a:hover {
 
 .Info--mail-btn > span {
     margin-left: 1rem;
+}
+
+/* About */
+.About--container {
+    margin: 0 auto;
+    max-width: 32rem;
+    background-color: var(--color-content-background);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 3rem;
+}
+
+.About--heading {
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.About--content {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 5px;
+    line-height: 19px;
+}
+
+/* Interests */
+.Interests--container {
+    margin: 0 auto;
+    max-width: 32rem;
+    background-color: var(--color-content-background);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 3rem;
+}
+
+.Interests--heading {
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.Interests--content {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 5px;
+    line-height: 19px;
+}
+
+/* Socials */
+
+.Socials--container {
+    margin: 0 auto;
+    max-width: 32rem;
+    background-color: #161619;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    column-gap: 2rem;
+}
+
+.Socials--container i {
+    color: var(--color-grey);
+    font-size: 3rem;
 }
